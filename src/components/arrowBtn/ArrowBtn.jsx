@@ -6,6 +6,8 @@ const ArrowBtn = ({ direction, click }) => {
     <div className={styles.arrow} direction={direction} onClick={click}>
       {" "}
       <svg className={direction}>
+
+
         <use xlinkHref={`./svg/icons.svg#icon-arrow-${direction}`}></use>
       </svg>
     </div>
