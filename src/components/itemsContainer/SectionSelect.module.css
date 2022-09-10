@@ -1,0 +1,21 @@
+.sectionSelect {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid var(--text-color);
+  border-top: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 10px;
+}
+
+.sectionSelect h3 {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--text-color);
+}

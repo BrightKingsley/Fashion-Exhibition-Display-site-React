@@ -1,0 +1,14 @@
+
+.itemsContainer {
+  width: 80%;
+  height: 95%;
+
+  padding: 10px 10px;
+
+  border: 1px solid var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  overflow-x: hidden;
+}
